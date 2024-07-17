@@ -1,0 +1,28 @@
+Ha, hozirda hammasi to'g'ri ketmoqda. Siz muvaffaqiyatli ravishda Git repository yaratdingiz, foydalanuvchi ismi va elektron pochtangizni sozladingiz, fayllarni qo'shdingiz va dastlabki commitni amalga oshirdingiz. Mana, hozirgi holatingizning qisqacha xulosasi:
+
+1. **Git repository yaratildi:**
+   ```sh
+   $ git init
+   Initialized empty Git repository in E:/Bootcamp Frontend (React JS)N36/Git/.git/
+   ```
+
+2. **Foydalanuvchi ismi va elektron pochta sozlandi:**
+   ```sh
+   $ git config --global user.name "Saddam0599"
+   $ git config --global user.email "saddammamatkulov@gmail.com"
+   ```
+
+3. **Fayllar qo'shildi:**
+   ```sh
+   $ git add .
+   ```
+
+4. **Dastlabki commit amalga oshirildi:**
+   ```sh
+   $ git commit -m "Dastlabki commit git"
+   [master (root-commit) 772dc24] Dastlabki commit git
+    1 file changed, 0 insertions(+), 0 deletions(-)
+    create mode 100644 Git.txt
+   ```
+
+Agar boshqa biror narsa qilish yoki qo'shimcha yordam kerak bo'lsa, menga xabar bering!
